@@ -214,6 +214,15 @@
 	-moz-border-radius: 200px;
 }
 
+#ribbon {
+	display: block; 
+	z-index: 1000; 
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	border: 0;	
+}
+
 @-webkit-keyframes moveclouds {
 	0% {margin-left: 1000px;}
 	100% {margin-left: -1000px;}
@@ -239,7 +248,7 @@
 	</head>
 
 	<body>
-		<a href="https://github.com/you"><img style="display: block; z-index: 1000; position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+		<a id="ribbon" href="https://github.com/declandewet"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 		<div class="center-sunburst">
 			<div class="sunburst">
     			<div class="outer">
